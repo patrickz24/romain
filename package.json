@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "nyc mocha *spec.js"
+        "test": "nyc mocha *.spec.js",
+        "test:watch": "mocha --watch *.spec.js"
     },
     "author": "",
     "license": "ISC",
