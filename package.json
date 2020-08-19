@@ -1,0 +1,16 @@
+{
+    "name": "romain",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "nyc mocha *spec.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^8.1.1",
+        "nyc": "^15.1.0"
+    }
+}
